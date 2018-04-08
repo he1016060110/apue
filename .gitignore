@@ -132,3 +132,9 @@ threads/badexit2
 threads/cleanup
 threads/exitstatus
 threads/threadid
+exercises/getpwsvr4
+filedir/zap
+signals/child
+stdio/memstr
+threads/barrier
+threads/timedlock
