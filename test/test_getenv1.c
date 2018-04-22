@@ -1,13 +1,14 @@
 #include <pthread.h>
 #include <stdio.h>
-#include "getenv1.c"
+
+extern char * getenv_v1(char *);
 
 void * thr_fn(void * arg)
 {
   char * name = (char *) (arg);
   int i = 0;
   for(;;) {
-    char * env_name = getenv(name);  
+    char * env_name = getenv_v1(name);  
     printf("%s\n", env_name);
     i++;
     if (i > 100000) {

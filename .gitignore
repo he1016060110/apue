@@ -138,3 +138,5 @@ signals/child
 stdio/memstr
 threads/barrier
 threads/timedlock
+test/*
+!test/*.c

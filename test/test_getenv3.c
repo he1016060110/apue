@@ -1,6 +1,6 @@
 #include <pthread.h>
 #include <stdio.h>
-#include "getenv3.c"
+#include "../threadctl/getenv3.c"
 
 void * thr_fn(void * arg)
 {
